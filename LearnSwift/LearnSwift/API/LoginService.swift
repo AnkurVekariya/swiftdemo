@@ -18,6 +18,7 @@ struct Service {
                         "username" : "Ankur",
                         "password": "12345",
                         "grant_type": "password"]
+            print(json)
           
             completion(true,json as NSDictionary?)
         }
