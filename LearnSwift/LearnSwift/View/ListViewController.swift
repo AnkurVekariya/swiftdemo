@@ -22,6 +22,10 @@ class ListViewController: UIViewController {
         requestContact()
     }
     
+    func testFunction() {
+        print("this is for test")
+    }
+    
     //    func retrieveContacts(_ completion: (_ success: Bool, _ contacts: [ContactEntry]?) -> Void) {
     //        var contacts = [ContactEntry]()
 //            do {
